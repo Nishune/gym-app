@@ -1,4 +1,4 @@
-// src/styles/components/Layout.module.scss
+// src/styles/components/layout.module.scss
 @use "../variables" as *;
 
 .layout {
@@ -9,8 +9,6 @@
 
 .main {
   flex: 1;
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
+  padding: 1rem;
+  padding-bottom: calc(60px + 1rem); // Ge plats för bottom navigation
 }
